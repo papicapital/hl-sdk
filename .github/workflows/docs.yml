@@ -1,0 +1,55 @@
+name: Docs
+
+on:
+  push:
+    branches: [main]          # or your default branch
+  workflow_dispatch: {}
+
+permissions:
+  contents: read              # checkout
+  pages: write                # allow publish
+  id-token: write             # OIDC for deploy
+
+env:
+  UV_CACHE_DIR: ~/.cache/uv   # optional – keeps wheels across jobs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 1. install uv + the Python version for docs
+    - name: Set up uv
+      uses: astral-sh/setup-uv@v6       # built-in cache support
+      with:
+        enable-cache: true
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version-file: ".python-version"
+    # 2. lock + install all extras (includes "docs")
+    - name: Sync deps
+      run: uv sync --all-extras --dev --locked
+    # 3. build site into ./site
+    - name: Build MkDocs site
+      run: uv run mkdocs build --clean --strict --site-dir site
+
+    # 4. upload the resulting static site as a Pages artifact
+    - name: Upload GitHub Pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./site                  # ← must match build output
+  # ------------------------------------------------------------------
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
