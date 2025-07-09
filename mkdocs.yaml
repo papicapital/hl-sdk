@@ -1,6 +1,6 @@
-site_name: hl Docs
-site_url: https://papicapital.github.com/hl-sdk
-site_description: A modern text extraction library supporting PDFs, images, office documents and more
+site_name: hl-sdk Docs
+site_url: https://papicapital.github.com/hl-sdk/
+site_description: Unofficial Python SDK for Hyperliquid
 site_author: Papicapital
 repo_name: papicapital/hl-sdk
 repo_url: https://github.com/papicapital/hl-sdk/
