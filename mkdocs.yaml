@@ -10,7 +10,6 @@ nav:
 - Overview: index.md
 - Guides:
   - guides/index.md
-  - guides/universe.md
   - guides/authentication.md
   - guides/api.md
   - guides/info.md
@@ -18,6 +17,7 @@ nav:
   - Websocket:
     - guides/ws/websocket-api.md
     - guides/ws/subscriptions.md
+  - guides/universe.md
   - guides/advanced.md
   - guides/examples.md
 - API Reference:
