@@ -5,7 +5,7 @@ description = "An unofficial client SDK for Hyperliquid"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICEN[CS]E.*"]
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 authors = [
     {name = "papicap", email = "212585295+papicap@users.noreply.github.com"}
 ]

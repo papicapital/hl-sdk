@@ -2,7 +2,7 @@
 
 📚 **[Documentation](https://papicapital.github.io/hl-sdk/)** | **[API Reference](https://papicapital.github.io/hl-sdk/reference/api/)** | **[Examples](./examples/)**
 
-[![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 
@@ -19,7 +19,7 @@ A high-performance, async Python SDK for interacting with the [Hyperliquid](http
 
 ### Requirements
 
-- Python 3.13 or higher
+- Python 3.11 or higher
 
 ### Install from PyPI
 
@@ -170,14 +170,6 @@ uv run mypy hl tests
 uv run ruff check --fix
 uv run ruff format
 ```
-
-## API Modules
-
-- **`api`** - Main API client
-- **`info`** - Query market data, account info, and historical data
-- **`exchange`** - Place, modify, and cancel orders
-- **`ws`** - WebSocket client for real-time data
-- **`types`** - Type definitions for all API objects
 
 ## Contributing
 
