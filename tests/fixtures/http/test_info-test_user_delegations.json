@@ -1,0 +1,21 @@
+{
+  "fixture_name": "test_info-test_user_delegations",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "delegations",
+        "user": "0x0000000000000000000000000000000000000002"
+      },
+      "result": {
+        "type": "ok",
+        "value": [
+          {
+            "validator": "0x8888c8c2c539d56919d20ac58305a5000b26fb67",
+            "amount": "3.50050089",
+            "lockedUntilTimestamp": 1750358310761
+          }
+        ]
+      }
+    }
+  ]
+}

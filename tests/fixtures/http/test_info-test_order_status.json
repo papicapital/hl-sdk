@@ -1,0 +1,41 @@
+{
+  "test_context": "test_info-test_order_status",
+  "interactions": [
+    {
+      "transport_url": "https://api.hyperliquid-testnet.xyz/info",
+      "normalized_payload": {
+        "type": "orderStatus",
+        "user": "0x0000000000000000000000000000000000000000",
+        "oid": 33845539264
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "order",
+          "order": {
+            "order": {
+              "coin": "BTC",
+              "side": "B",
+              "limitPx": "105392.0",
+              "sz": "0.001",
+              "oid": 33845539264,
+              "timestamp": 1750004858086,
+              "triggerCondition": "N/A",
+              "isTrigger": false,
+              "triggerPx": "0.0",
+              "children": [],
+              "isPositionTpsl": false,
+              "reduceOnly": false,
+              "orderType": "Limit",
+              "origSz": "0.001",
+              "tif": "Gtc",
+              "cloid": null
+            },
+            "status": "open",
+            "statusTimestamp": 1750004858086
+          }
+        }
+      }
+    }
+  ]
+}

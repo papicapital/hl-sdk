@@ -1,0 +1,25 @@
+{
+  "fixture_name": "test_exchange-test_transfer_vault_funds_withdrawal",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "vaultTransfer",
+          "vaultAddress": "0x0000000000000000000000000000000000000002",
+          "isDeposit": false,
+          "usd": 431000000
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

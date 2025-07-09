@@ -1,0 +1,29 @@
+{
+  "fixture_name": "test_info-test_user_referral_with_code",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "referral",
+        "user": "0x0000000000000000000000000000000000000002"
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "referredBy": null,
+          "cumVlm": "100076.38616",
+          "unclaimedRewards": "0.0",
+          "claimedRewards": "0.0",
+          "builderRewards": "0.0",
+          "referrerState": {
+            "stage": "ready",
+            "data": {
+              "code": "TESTCODEPLSIGNORE",
+              "referralStates": []
+            }
+          },
+          "rewardHistory": []
+        }
+      }
+    }
+  ]
+}

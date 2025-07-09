@@ -1,0 +1,26 @@
+{
+  "test_context": "test_info-test_user_open_orders_with_address",
+  "interactions": [
+    {
+      "transport_url": "https://api.hyperliquid-testnet.xyz/info",
+      "normalized_payload": {
+        "type": "openOrders",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": [
+          {
+            "coin": "BTC",
+            "side": "B",
+            "limitPx": "104000.0",
+            "sz": "0.001",
+            "oid": 33845248246,
+            "timestamp": 1750004318290,
+            "origSz": "0.001"
+          }
+        ]
+      }
+    }
+  ]
+}

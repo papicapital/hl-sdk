@@ -1,0 +1,30 @@
+{
+  "fixture_name": "test_info-test_user_funding",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "userFunding",
+        "user": "0x0000000000000000000000000000000000000000",
+        "startTime": 1749790800000,
+        "endTime": 1750136400000
+      },
+      "result": {
+        "type": "ok",
+        "value": [
+          {
+            "time": 1750118400000,
+            "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "delta": {
+              "type": "funding",
+              "coin": "BTC",
+              "usdc": "-0.082592",
+              "szi": "0.0016125",
+              "fundingRate": "0.0000613769",
+              "nSamples": 8
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

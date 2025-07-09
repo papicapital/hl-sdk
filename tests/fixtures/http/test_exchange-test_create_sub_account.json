@@ -1,0 +1,24 @@
+{
+  "fixture_name": "test_exchange-test_create_sub_account",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "createSubAccount",
+          "name": "testplsignore"
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "createSubAccount",
+            "data": "0x0000000000000000000000000000000000000001"
+          }
+        }
+      }
+    }
+  ]
+}

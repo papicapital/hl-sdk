@@ -1,0 +1,27 @@
+{
+  "fixture_name": "test_exchange-test_approve_agent",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "approveAgent",
+          "hyperliquidChain": "Testnet",
+          "signatureChainId": "0x66eee",
+          "agentAddress": "0x0000000000000000000000000000000000000003",
+          "agentName": "TestAgent",
+          "nonce": 1750330228648
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "fixture_name": "test_exchange-test_unstake_tokens",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "cWithdraw",
+          "hyperliquidChain": "Testnet",
+          "signatureChainId": "0x66eee",
+          "wei": 210000000,
+          "nonce": 1750357814486
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

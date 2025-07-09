@@ -1,0 +1,829 @@
+{
+  "fixture_name": "test_subscription-test_user_fundings_subscription",
+  "interactions": [
+    {
+      "type": "subscribe",
+      "subscription": {
+        "type": "userFundings",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "subscription_id": 0,
+      "messages": [
+        {
+          "message": {
+            "channel": "userFundings",
+            "data": {
+              "isSnapshot": true,
+              "user": "0x0000000000000000000000000000000000000000",
+              "fundings": [
+                {
+                  "time": 1751137200183,
+                  "coin": "BTC",
+                  "usdc": "-0.024289",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000325657",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751140800150,
+                  "coin": "BTC",
+                  "usdc": "-0.025025",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000335805",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751144400032,
+                  "coin": "BTC",
+                  "usdc": "-0.024348",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000326798",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751148000170,
+                  "coin": "BTC",
+                  "usdc": "-0.030993",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000415503",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751151600144,
+                  "coin": "BTC",
+                  "usdc": "-0.037814",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000506757",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751155200113,
+                  "coin": "BTC",
+                  "usdc": "-0.045735",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000613313",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751158800103,
+                  "coin": "BTC",
+                  "usdc": "-0.014294",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000191373",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751162400012,
+                  "coin": "BTC",
+                  "usdc": "-0.02283",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000306107",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751166000295,
+                  "coin": "BTC",
+                  "usdc": "-0.019373",
+                  "szi": "0.00695",
+                  "fundingRate": "0.000025977",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751169600020,
+                  "coin": "BTC",
+                  "usdc": "-0.019368",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000259945",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751173200176,
+                  "coin": "BTC",
+                  "usdc": "-0.02692",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000361092",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751176800010,
+                  "coin": "BTC",
+                  "usdc": "-0.036713",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000492271",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751180400081,
+                  "coin": "BTC",
+                  "usdc": "-0.042307",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000566944",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751184000053,
+                  "coin": "BTC",
+                  "usdc": "-0.058032",
+                  "szi": "0.00695",
+                  "fundingRate": "0.000077778",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751187600057,
+                  "coin": "BTC",
+                  "usdc": "-0.021531",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000287668",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751191200051,
+                  "coin": "BTC",
+                  "usdc": "-0.027999",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000373401",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751194800195,
+                  "coin": "BTC",
+                  "usdc": "-0.028742",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000382384",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751198400116,
+                  "coin": "BTC",
+                  "usdc": "-0.043973",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000583391",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751202000060,
+                  "coin": "BTC",
+                  "usdc": "-0.050499",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000671611",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751205600121,
+                  "coin": "BTC",
+                  "usdc": "-0.052118",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000694024",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751209200195,
+                  "coin": "BTC",
+                  "usdc": "-0.062003",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000826512",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751212800125,
+                  "coin": "BTC",
+                  "usdc": "-0.06409",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000855754",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751216400049,
+                  "coin": "BTC",
+                  "usdc": "-0.025935",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000346963",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751220000112,
+                  "coin": "BTC",
+                  "usdc": "-0.024699",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000330481",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751223600151,
+                  "coin": "BTC",
+                  "usdc": "-0.026637",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000356069",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751227200073,
+                  "coin": "BTC",
+                  "usdc": "-0.031154",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000417356",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751230800040,
+                  "coin": "BTC",
+                  "usdc": "-0.032426",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000434495",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751234400011,
+                  "coin": "BTC",
+                  "usdc": "-0.0337",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000450893",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751238000197,
+                  "coin": "BTC",
+                  "usdc": "-0.0449",
+                  "szi": "0.00695",
+                  "fundingRate": "0.000059775",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751241600209,
+                  "coin": "BTC",
+                  "usdc": "-0.065314",
+                  "szi": "0.00695",
+                  "fundingRate": "0.000086729",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751245200093,
+                  "coin": "BTC",
+                  "usdc": "-0.030446",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000402959",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751248800171,
+                  "coin": "BTC",
+                  "usdc": "-0.033712",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000447045",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751252400174,
+                  "coin": "BTC",
+                  "usdc": "-0.046264",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000613698",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751256000520,
+                  "coin": "BTC",
+                  "usdc": "-0.05227",
+                  "szi": "0.00695",
+                  "fundingRate": "0.000069313",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751259600031,
+                  "coin": "BTC",
+                  "usdc": "-0.060412",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000802465",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751263200122,
+                  "coin": "BTC",
+                  "usdc": "-0.059202",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000786694",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751266800041,
+                  "coin": "BTC",
+                  "usdc": "-0.063396",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000848014",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751270400159,
+                  "coin": "BTC",
+                  "usdc": "-0.059823",
+                  "szi": "0.00695",
+                  "fundingRate": "0.000079987",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751274000097,
+                  "coin": "BTC",
+                  "usdc": "-0.032313",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000432484",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751277600149,
+                  "coin": "BTC",
+                  "usdc": "-0.034263",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000458663",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751281200005,
+                  "coin": "BTC",
+                  "usdc": "-0.03414",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000456324",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751284800029,
+                  "coin": "BTC",
+                  "usdc": "-0.040302",
+                  "szi": "0.00695",
+                  "fundingRate": "0.000053866",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751288400174,
+                  "coin": "BTC",
+                  "usdc": "-0.049465",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000661612",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751292000062,
+                  "coin": "BTC",
+                  "usdc": "-0.056974",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000762397",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751295600053,
+                  "coin": "BTC",
+                  "usdc": "-0.067481",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000909108",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751299200037,
+                  "coin": "BTC",
+                  "usdc": "-0.06119",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000818329",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751302800151,
+                  "coin": "BTC",
+                  "usdc": "-0.026837",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000358872",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751306400110,
+                  "coin": "BTC",
+                  "usdc": "-0.036994",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000495325",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751310000160,
+                  "coin": "BTC",
+                  "usdc": "-0.04022",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000539637",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751313600062,
+                  "coin": "BTC",
+                  "usdc": "-0.041461",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000553603",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751317200026,
+                  "coin": "BTC",
+                  "usdc": "-0.05403",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000722683",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751320800047,
+                  "coin": "BTC",
+                  "usdc": "-0.062509",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000839558",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751324400093,
+                  "coin": "BTC",
+                  "usdc": "-0.059028",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000792927",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751328000204,
+                  "coin": "BTC",
+                  "usdc": "-0.072695",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000976215",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751331600038,
+                  "coin": "BTC",
+                  "usdc": "-0.026601",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000356455",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751335200021,
+                  "coin": "BTC",
+                  "usdc": "-0.037144",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000498458",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751338800121,
+                  "coin": "BTC",
+                  "usdc": "-0.040526",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000544451",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751342400079,
+                  "coin": "BTC",
+                  "usdc": "-0.047887",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000642784",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751346000158,
+                  "coin": "BTC",
+                  "usdc": "-0.056322",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000758203",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751349600018,
+                  "coin": "BTC",
+                  "usdc": "-0.058854",
+                  "szi": "0.00695",
+                  "fundingRate": "0.00007919",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751353200130,
+                  "coin": "BTC",
+                  "usdc": "-0.065138",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000876827",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751363423424,
+                  "coin": "BTC",
+                  "usdc": "-0.053513",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000719757",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751364000068,
+                  "coin": "BTC",
+                  "usdc": "-0.041847",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000565069",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751367600160,
+                  "coin": "BTC",
+                  "usdc": "-0.038744",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000523493",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751371200075,
+                  "coin": "BTC",
+                  "usdc": "-0.033622",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000453834",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751374800037,
+                  "coin": "BTC",
+                  "usdc": "-0.048075",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000649998",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751378400003,
+                  "coin": "BTC",
+                  "usdc": "-0.043186",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000581768",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751382000189,
+                  "coin": "BTC",
+                  "usdc": "-0.051395",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000698177",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751385600101,
+                  "coin": "BTC",
+                  "usdc": "-0.055042",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000747139",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751389200010,
+                  "coin": "BTC",
+                  "usdc": "-0.024829",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000336744",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751392800025,
+                  "coin": "BTC",
+                  "usdc": "-0.026504",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000358927",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751396400167,
+                  "coin": "BTC",
+                  "usdc": "-0.034845",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000474023",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751400000101,
+                  "coin": "BTC",
+                  "usdc": "-0.029731",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000405882",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751403600085,
+                  "coin": "BTC",
+                  "usdc": "-0.023469",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000318815",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751407200036,
+                  "coin": "BTC",
+                  "usdc": "-0.043113",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000586424",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751410800096,
+                  "coin": "BTC",
+                  "usdc": "-0.049809",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000678555",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751414400058,
+                  "coin": "BTC",
+                  "usdc": "-0.053965",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000734743",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751418000068,
+                  "coin": "BTC",
+                  "usdc": "-0.02519",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000343913",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751421600102,
+                  "coin": "BTC",
+                  "usdc": "-0.01723",
+                  "szi": "0.00695",
+                  "fundingRate": "0.000023451",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751425200145,
+                  "coin": "BTC",
+                  "usdc": "-0.033427",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000454137",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751428800071,
+                  "coin": "BTC",
+                  "usdc": "-0.035313",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000478469",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751432400134,
+                  "coin": "BTC",
+                  "usdc": "-0.040166",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000543259",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751436000026,
+                  "coin": "BTC",
+                  "usdc": "-0.047304",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000638272",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751439600096,
+                  "coin": "BTC",
+                  "usdc": "-0.045891",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000617035",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751443200155,
+                  "coin": "BTC",
+                  "usdc": "-0.055044",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000739629",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751446800305,
+                  "coin": "BTC",
+                  "usdc": "-0.021751",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000290523",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751450400077,
+                  "coin": "BTC",
+                  "usdc": "-0.032898",
+                  "szi": "0.00695",
+                  "fundingRate": "0.000043978",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751454000123,
+                  "coin": "BTC",
+                  "usdc": "-0.037334",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000498145",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751457600011,
+                  "coin": "BTC",
+                  "usdc": "-0.043245",
+                  "szi": "0.00695",
+                  "fundingRate": "0.000057894",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751461200039,
+                  "coin": "BTC",
+                  "usdc": "-0.03855",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000516565",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751464800060,
+                  "coin": "BTC",
+                  "usdc": "-0.042308",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000564874",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751468400254,
+                  "coin": "BTC",
+                  "usdc": "-0.048474",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000644973",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751472000244,
+                  "coin": "BTC",
+                  "usdc": "-0.055344",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000732326",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751475600076,
+                  "coin": "BTC",
+                  "usdc": "-0.018832",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000247676",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751479200028,
+                  "coin": "BTC",
+                  "usdc": "-0.032879",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000433512",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751482800150,
+                  "coin": "BTC",
+                  "usdc": "-0.030442",
+                  "szi": "0.00695",
+                  "fundingRate": "0.000039988",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751486400005,
+                  "coin": "BTC",
+                  "usdc": "-0.034062",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000446981",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751490000180,
+                  "coin": "BTC",
+                  "usdc": "-0.045698",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000602459",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751493600108,
+                  "coin": "BTC",
+                  "usdc": "-0.050031",
+                  "szi": "0.00695",
+                  "fundingRate": "0.0000657767",
+                  "nSamples": null
+                },
+                {
+                  "time": 1751497200025,
+                  "coin": "BTC",
+                  "usdc": "-0.077557",
+                  "szi": "0.00795",
+                  "fundingRate": "0.0000893855",
+                  "nSamples": null
+                }
+              ]
+            }
+          },
+          "timestamp": 1.2737855911254883
+        }
+      ],
+      "capture_duration": 5.0,
+      "timestamp": 1751500506.667319
+    }
+  ]
+}

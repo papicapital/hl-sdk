@@ -1,0 +1,24 @@
+{
+  "fixture_name": "test_info-test_spot_deploy_auction_status",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "spotDeployState",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "states": [],
+          "gasAuction": {
+            "startTimeSeconds": 1750111200,
+            "durationSeconds": 111600,
+            "startGas": "6047.34919498",
+            "currentGas": null,
+            "endGas": "6045.97717049"
+          }
+        }
+      }
+    }
+  ]
+}

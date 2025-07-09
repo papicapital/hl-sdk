@@ -1,0 +1,16 @@
+{
+  "fixture_name": "test_info-test_max_builder_fee",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "maxBuilderFee",
+        "user": "0x0000000000000000000000000000000000000000",
+        "builder": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": 0
+      }
+    }
+  ]
+}

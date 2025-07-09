@@ -1,0 +1,304 @@
+{
+  "fixture_name": "test_subscription-test_user_non_funding_ledger_updates_subscription",
+  "interactions": [
+    {
+      "type": "subscribe",
+      "subscription": {
+        "type": "userNonFundingLedgerUpdates",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "subscription_id": 0,
+      "messages": [
+        {
+          "message": {
+            "channel": "userNonFundingLedgerUpdates",
+            "data": {
+              "isSnapshot": true,
+              "user": "0x0000000000000000000000000000000000000000",
+              "nonFundingLedgerUpdates": [
+                {
+                  "time": 1749382389705,
+                  "hash": "0x00208d58873e5433e6550416d7f437010e00af8a5bb8b42d89b9c7a2e9626d64",
+                  "delta": {
+                    "type": "internalTransfer",
+                    "usdc": "1000.0",
+                    "user": "0xe973105a27e17350500926ae664dfcfe6006d924",
+                    "destination": "0x0000000000000000000000000000000000000000",
+                    "fee": "1.0"
+                  }
+                },
+                {
+                  "time": 1750016538300,
+                  "hash": "0x5743868ac8996869844c04170bb584011d0004ffd6c097cd26103c0c46851b10",
+                  "delta": {
+                    "type": "spotTransfer",
+                    "token": "USDC",
+                    "amount": "98491.416604",
+                    "usdcValue": "98491.416604",
+                    "user": "0x2abefe1d3eadc03978798eb75a6c68c30c5d71df",
+                    "destination": "0x0000000000000000000000000000000000000000",
+                    "fee": "0.0",
+                    "nativeTokenFee": "0.0",
+                    "nonce": 1750016532262
+                  }
+                },
+                {
+                  "time": 1750018761251,
+                  "hash": "0x0ade444a97058e9a476604170be542010f0026576fdf20eeafe97118d5e66937",
+                  "delta": {
+                    "type": "accountClassTransfer",
+                    "usdc": "1.0",
+                    "toPerp": true
+                  }
+                },
+                {
+                  "time": 1750018815050,
+                  "hash": "0x1e7cc95ebc18b803124a04170be674010d0061fca3f7d53b72a016e029e5c959",
+                  "delta": {
+                    "type": "accountClassTransfer",
+                    "usdc": "1.0",
+                    "toPerp": true
+                  }
+                },
+                {
+                  "time": 1750018841773,
+                  "hash": "0xd8116dd3abe9226588da04170be7060106000a745fc41291f7291e696b859460",
+                  "delta": {
+                    "type": "accountClassTransfer",
+                    "usdc": "1.0",
+                    "toPerp": true
+                  }
+                },
+                {
+                  "time": 1750019028103,
+                  "hash": "0x96841fd36a98323a38db04170beb15010a006e5da2c35161c1a2f3d3263827e2",
+                  "delta": {
+                    "type": "accountClassTransfer",
+                    "usdc": "60000.0",
+                    "toPerp": true
+                  }
+                },
+                {
+                  "time": 1750019107397,
+                  "hash": "0xfd0e2637548a310578da04170becd5010700d8d83fd6a77442000d04dc71cb4a",
+                  "delta": {
+                    "type": "accountClassTransfer",
+                    "usdc": "25000.0",
+                    "toPerp": true
+                  }
+                },
+                {
+                  "time": 1750021392879,
+                  "hash": "0xd5faccbd8d923e5446f404170c1df7011f00621ae6041d667a54d8d343f660b7",
+                  "delta": {
+                    "type": "vaultCreate",
+                    "vault": "0xa71e834d4e7bbbb5c896047d150834c3ab86c06a",
+                    "usdc": "200.0",
+                    "fee": "100.0"
+                  }
+                },
+                {
+                  "time": 1750022026528,
+                  "hash": "0x1a3a423cf886c774281c04170c2ba1010400484bd27c9a91b2ed4fd62ed47a62",
+                  "delta": {
+                    "type": "vaultCreate",
+                    "vault": "0x0000000000000000000000000000000000000002",
+                    "usdc": "20000.0",
+                    "fee": "100.0"
+                  }
+                },
+                {
+                  "time": 1750180760820,
+                  "hash": "0xf8703d58d2d8e686a817041719860a0118008f9d9789818de2b9ded114d25459",
+                  "delta": {
+                    "type": "internalTransfer",
+                    "usdc": "100.0",
+                    "user": "0x0000000000000000000000000000000000000000",
+                    "destination": "0x0000000000000000000000000000000000000004",
+                    "fee": "1.0"
+                  }
+                },
+                {
+                  "time": 1750180860359,
+                  "hash": "0xb15d2c97365944251fcd041719883e0124000ea48af3b8031681d0703d68bd74",
+                  "delta": {
+                    "type": "spotTransfer",
+                    "token": "USDC",
+                    "amount": "40.0",
+                    "usdcValue": "40.0",
+                    "user": "0x0000000000000000000000000000000000000004",
+                    "destination": "0x0000000000000000000000000000000000000000",
+                    "fee": "0.0",
+                    "nativeTokenFee": "0.0",
+                    "nonce": 1750180846863
+                  }
+                },
+                {
+                  "time": 1750180921441,
+                  "hash": "0x9b582d4bd87c060022c00417198997011c000ef8e3ff6deb72f50cf95d2220b9",
+                  "delta": {
+                    "type": "internalTransfer",
+                    "usdc": "10.0",
+                    "user": "0x0000000000000000000000000000000000000004",
+                    "destination": "0x0000000000000000000000000000000000000000",
+                    "fee": "0.0"
+                  }
+                },
+                {
+                  "time": 1750181063081,
+                  "hash": "0xd8d44e01074cd5c429940417198caf010a0011641f360909d399ecdc2fba0af2",
+                  "delta": {
+                    "type": "spotTransfer",
+                    "token": "USDC",
+                    "amount": "100.0",
+                    "usdcValue": "100.0",
+                    "user": "0x0000000000000000000000000000000000000000",
+                    "destination": "0x0000000000000000000000000000000000000004",
+                    "fee": "0.0",
+                    "nativeTokenFee": "0.0",
+                    "nonce": 1750181062363
+                  }
+                },
+                {
+                  "time": 1750181454003,
+                  "hash": "0xa40b1b123fa2ca4030f2041719955f011d00388430ba64c7cda475cee14dcd4e",
+                  "delta": {
+                    "type": "spotTransfer",
+                    "token": "PURR",
+                    "amount": "10.0",
+                    "usdcValue": "53.157",
+                    "user": "0x0000000000000000000000000000000000000000",
+                    "destination": "0x0000000000000000000000000000000000000004",
+                    "fee": "0.0",
+                    "nativeTokenFee": "0.0",
+                    "nonce": 1750181453275
+                  }
+                },
+                {
+                  "time": 1750181964795,
+                  "hash": "0xe822977f1bca12d620591c0fa0a484007ebf6da11d0b906081037eab71c99030",
+                  "delta": {
+                    "type": "withdraw",
+                    "usdc": "99.0",
+                    "nonce": 1750181714145000,
+                    "fee": "1.0"
+                  }
+                },
+                {
+                  "time": 1750328365935,
+                  "hash": "0xaa8c96d3dce8833f1c7e0417261f8501130010645e0fe245d4303eadd949d4b4",
+                  "delta": {
+                    "type": "vaultDeposit",
+                    "vault": "0x0000000000000000000000000000000000000002",
+                    "usdc": "62.0"
+                  }
+                },
+                {
+                  "time": 1750328442371,
+                  "hash": "0x8bb54479234d41220d940417262131010a00154179f7f1c836efe96814671629",
+                  "delta": {
+                    "type": "vaultWithdraw",
+                    "vault": "0x0000000000000000000000000000000000000002",
+                    "user": "0x0000000000000000000000000000000000000000",
+                    "requestedUsd": "431.0",
+                    "commission": "0.0",
+                    "closingCost": "0.0",
+                    "basis": "431.0",
+                    "netWithdrawnUsd": "431.0"
+                  }
+                },
+                {
+                  "time": 1750354895030,
+                  "hash": "0x76e2807d683acb9179fa0417285d6c01160080ce4299b6a92675537b5caa71df",
+                  "delta": {
+                    "type": "accountClassTransfer",
+                    "usdc": "28.0",
+                    "toPerp": true
+                  }
+                },
+                {
+                  "time": 1750356732770,
+                  "hash": "0x6422097b621951f7afd2041728852e010e00daa91402e318b25215ccd731e657",
+                  "delta": {
+                    "type": "cStakingTransfer",
+                    "token": "HYPE",
+                    "amount": "0.06",
+                    "isDeposit": true
+                  }
+                },
+                {
+                  "time": 1750357775521,
+                  "hash": "0x06fb4ff3fb94865afe4c0417289bd1010900c0dc0d6dd2da6e21f6c655c6dc56",
+                  "delta": {
+                    "type": "cStakingTransfer",
+                    "token": "HYPE",
+                    "amount": "6.0",
+                    "isDeposit": true
+                  }
+                },
+                {
+                  "time": 1750358118172,
+                  "hash": "0xe0a8fe39b40ff61a3a1f041728a3470000e29d9755562d3caa11110ea1ab9a6a",
+                  "delta": {
+                    "type": "cStakingTransfer",
+                    "token": "HYPE",
+                    "amount": "2.1",
+                    "isDeposit": false
+                  }
+                },
+                {
+                  "time": 1751499878562,
+                  "hash": "0x4df49cc4b8e951811cd8041786589f01070081d8ae94eadd3acf17e540a948fa",
+                  "delta": {
+                    "type": "spotTransfer",
+                    "token": "HYPE",
+                    "amount": "1.0",
+                    "usdcValue": "151.52",
+                    "user": "0x0000000000000000000000000000000000000000",
+                    "destination": "0x2222222222222222222222222222222222222222",
+                    "fee": "0.0",
+                    "nativeTokenFee": "0.0",
+                    "nonce": 1751499869133
+                  }
+                },
+                {
+                  "time": 1751499913492,
+                  "hash": "0xc26932fd60a68d6d3a6b04178659650102004590bf892bd951249493b61491b7",
+                  "delta": {
+                    "type": "subAccountTransfer",
+                    "usdc": "10.0",
+                    "user": "0x0000000000000000000000000000000000000000",
+                    "destination": "0x0000000000000000000000000000000000000001"
+                  }
+                },
+                {
+                  "time": 1751500108420,
+                  "hash": "0x71d62f2b3e1f461bbf5a687d667c3ccd5d9d694d2147c044c393e06d1be445ef",
+                  "delta": {
+                    "type": "withdraw",
+                    "usdc": "9.0",
+                    "nonce": 1751499846852000,
+                    "fee": "1.0"
+                  }
+                },
+                {
+                  "time": 1751500335774,
+                  "hash": "0xb28f909f02d314700e210845a1466082665f3ac1a01d90c99264e1cb813360ba",
+                  "delta": {
+                    "type": "withdraw",
+                    "usdc": "14.0",
+                    "nonce": 1751500069217000,
+                    "fee": "1.0"
+                  }
+                }
+              ]
+            }
+          },
+          "timestamp": 1.0845577716827393
+        }
+      ],
+      "capture_duration": 5.0,
+      "timestamp": 1751500578.784594
+    }
+  ]
+}

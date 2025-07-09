@@ -1,0 +1,33 @@
+{
+  "fixture_name": "test_exchange-test_cancel_order_by_id",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "cancelByCloid",
+          "cancels": [
+            {
+              "asset": 3,
+              "cloid": "0x00000000000000000000000000000539"
+            }
+          ]
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "cancel",
+            "data": {
+              "statuses": [
+                "success"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

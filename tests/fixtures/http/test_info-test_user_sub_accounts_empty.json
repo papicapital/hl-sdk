@@ -1,0 +1,15 @@
+{
+  "fixture_name": "test_info-test_user_sub_accounts_empty",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "subAccounts",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": null
+      }
+    }
+  ]
+}

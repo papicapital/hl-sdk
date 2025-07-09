@@ -1,0 +1,88 @@
+{
+  "fixture_name": "test_info-test_perpetual_dexs",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "perpDexs"
+      },
+      "result": {
+        "type": "ok",
+        "value": [
+          null,
+          {
+            "name": "test",
+            "full_name": "test dex",
+            "deployer": "0x5e89b26d8d66da9888c835c9bfcc2aa51813e152",
+            "oracle_updater": null
+          },
+          {
+            "name": "unit",
+            "full_name": "unit dex",
+            "deployer": "0x888888880c61928866d8fcd1ac8655b7760b9f71",
+            "oracle_updater": "0x2d2bce037fc7b1b8a94af488d01ec20bec8117db"
+          },
+          {
+            "name": "scam",
+            "full_name": "Scam DEX",
+            "deployer": "0xcc16ae2ffc076d7bcd5ec3fb1e9aa5c2984133a1",
+            "oracle_updater": "0x6e86e8bee85cf425fd210e8c7e10dea882b77594"
+          },
+          {
+            "name": "felix",
+            "full_name": "felix",
+            "deployer": "0x3a4ca3a93fc224c0a073d087c19ba8f0f04c7f00",
+            "oracle_updater": null
+          },
+          {
+            "name": "volmex",
+            "full_name": "volmex",
+            "deployer": "0xcd46291b3965037c3a41d448ae692c3d46451b1d",
+            "oracle_updater": null
+          },
+          {
+            "name": "angry",
+            "full_name": "angry",
+            "deployer": "0xfe636473dcb6d86bbbb6165dd4b080c2f0decc31",
+            "oracle_updater": null
+          },
+          {
+            "name": "TOON",
+            "full_name": "Platoon",
+            "deployer": "0xa48fa7d5931e9974577096f68d627ed6b39259fc",
+            "oracle_updater": "0xa48fa7d5931e9974577096f68d627ed6b39259fc"
+          },
+          {
+            "name": "VOLMEX",
+            "full_name": "Volmex Dex",
+            "deployer": "0xcd46291b3965037c3a41d448ae692c3d46451b1d",
+            "oracle_updater": "0xcd46291b3965037c3a41d448ae692c3d46451b1d"
+          },
+          {
+            "name": "test21",
+            "full_name": "test21",
+            "deployer": "0x0d20d44fbd48752241a2b18979df2424e8a5f022",
+            "oracle_updater": "0x0d20d44fbd48752241a2b18979df2424e8a5f022"
+          },
+          {
+            "name": "pluto",
+            "full_name": "pluto dex",
+            "deployer": "0xaba2e511828df235e6df4cee48377b1d1e3a33ca",
+            "oracle_updater": "0xaba2e511828df235e6df4cee48377b1d1e3a33ca"
+          },
+          {
+            "name": "zigg",
+            "full_name": "zigg",
+            "deployer": "0x86ee66fced16f3f078fea4d5994e51a9f803b1cd",
+            "oracle_updater": "0x86ee66fced16f3f078fea4d5994e51a9f803b1cd"
+          },
+          {
+            "name": "i<3fl",
+            "full_name": "i love @frank_liquid",
+            "deployer": "0xbf5f347f2e579dd6d32d827936144d9c0a16e3b3",
+            "oracle_updater": "0xbf5f347f2e579dd6d32d827936144d9c0a16e3b3"
+          }
+        ]
+      }
+    }
+  ]
+}

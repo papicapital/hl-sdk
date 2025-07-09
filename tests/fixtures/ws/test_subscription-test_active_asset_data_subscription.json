@@ -1,0 +1,64 @@
+{
+  "fixture_name": "test_subscription-test_active_asset_data_subscription",
+  "interactions": [
+    {
+      "type": "subscribe",
+      "subscription": {
+        "type": "activeAssetData",
+        "user": "0x0000000000000000000000000000000000000000",
+        "coin": "BTC"
+      },
+      "subscription_id": 0,
+      "messages": [
+        {
+          "message": {
+            "channel": "activeAssetData",
+            "data": {
+              "user": "0x0000000000000000000000000000000000000000",
+              "coin": "BTC",
+              "leverage": {
+                "type": "cross",
+                "value": 20
+              },
+              "maxTradeSzs": [
+                "0.45787",
+                "0.45987"
+              ],
+              "availableToTrade": [
+                "65754.376128",
+                "65765.272428"
+              ],
+              "markPx": "108963.0"
+            }
+          },
+          "timestamp": 1.212343454360962
+        },
+        {
+          "message": {
+            "channel": "activeAssetData",
+            "data": {
+              "user": "0x0000000000000000000000000000000000000000",
+              "coin": "BTC",
+              "leverage": {
+                "type": "cross",
+                "value": 20
+              },
+              "maxTradeSzs": [
+                "0.4579",
+                "0.4599"
+              ],
+              "availableToTrade": [
+                "65754.40122",
+                "65765.29682"
+              ],
+              "markPx": "108956.0"
+            }
+          },
+          "timestamp": 3.7191379070281982
+        }
+      ],
+      "capture_duration": 5.0,
+      "timestamp": 1751500843.2792037
+    }
+  ]
+}

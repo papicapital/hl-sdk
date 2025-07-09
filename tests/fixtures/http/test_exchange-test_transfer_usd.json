@@ -1,0 +1,27 @@
+{
+  "fixture_name": "test_exchange-test_transfer_usd",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "usdClassTransfer",
+          "hyperliquidChain": "Testnet",
+          "signatureChainId": "0x66eee",
+          "amount": "25000",
+          "toPerp": true,
+          "nonce": 1750019107110
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

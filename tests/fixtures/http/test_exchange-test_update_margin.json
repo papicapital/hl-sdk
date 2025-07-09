@@ -1,0 +1,25 @@
+{
+  "fixture_name": "test_exchange-test_update_margin",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "updateIsolatedMargin",
+          "asset": 3,
+          "isBuy": true,
+          "ntli": 175000000
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

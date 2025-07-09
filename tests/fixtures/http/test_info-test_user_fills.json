@@ -1,0 +1,48 @@
+{
+  "fixture_name": "test_info-test_user_fills",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "userFills",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": [
+          {
+            "coin": "BTC",
+            "px": "105570.0",
+            "sz": "0.0002",
+            "side": "A",
+            "time": 1750006143360,
+            "startPosition": "0.0002",
+            "dir": "Close Long",
+            "closedPnl": "0.0356",
+            "hash": "0x4fd5c4723de6c5bc1ba304170ad6b5012400cf59eedef1c1b4d77aa12eae162e",
+            "oid": 33846367360,
+            "crossed": true,
+            "fee": "0.009501",
+            "tid": 317510766942530,
+            "feeToken": "USDC"
+          },
+          {
+            "coin": "BTC",
+            "px": "105392.0",
+            "sz": "0.0002",
+            "side": "B",
+            "time": 1750005225049,
+            "startPosition": "0.0",
+            "dir": "Open Long",
+            "closedPnl": "0.0",
+            "hash": "0x93a6084afbc00e651cab04170ac306010c0025314af2bd756fe5528d81a42f65",
+            "oid": 33845539264,
+            "crossed": false,
+            "fee": "0.003161",
+            "tid": 599534812993935,
+            "feeToken": "USDC"
+          }
+        ]
+      }
+    }
+  ]
+}

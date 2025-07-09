@@ -1,0 +1,48 @@
+{
+  "fixture_name": "test_exchange-test_modify_orders",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "batchModify",
+          "modifies": [
+            {
+              "oid": 33961871564,
+              "order": {
+                "a": 3,
+                "b": true,
+                "p": "104000",
+                "s": "0.004",
+                "r": false,
+                "t": {
+                  "limit": {
+                    "tif": "Gtc"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "order",
+            "data": {
+              "statuses": [
+                {
+                  "resting": {
+                    "oid": 33962423094
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "fixture_name": "test_exchange-test_send_usd",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "usdSend",
+          "hyperliquidChain": "Testnet",
+          "signatureChainId": "0x66eee",
+          "amount": "100",
+          "destination": "0x0000000000000000000000000000000000000004",
+          "time": 1750180760107
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

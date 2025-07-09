@@ -1,0 +1,43 @@
+{
+  "fixture_name": "test_subscription-test_user_events_subscription",
+  "interactions": [
+    {
+      "type": "subscribe",
+      "subscription": {
+        "type": "userEvents",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "subscription_id": 0,
+      "messages": [
+        {
+          "message": {
+            "channel": "user",
+            "data": {
+              "fills": [
+                {
+                  "coin": "BTC",
+                  "px": "108969.0",
+                  "sz": "0.00845",
+                  "side": "A",
+                  "time": 1751500067235,
+                  "startPosition": "0.00845",
+                  "dir": "Close Long",
+                  "closedPnl": "27.63488",
+                  "hash": "0x5a3a7c6b8429121cf3fa0417865cd1010f0024737e6f00b24077cd4c48ad5eb8",
+                  "oid": 34783837615,
+                  "crossed": true,
+                  "fee": "0.414354",
+                  "tid": 443403645240311,
+                  "feeToken": "USDC"
+                }
+              ]
+            }
+          },
+          "timestamp": 5.6703150272369385
+        }
+      ],
+      "capture_duration": 35.0,
+      "timestamp": 1751500061.730746
+    }
+  ]
+}

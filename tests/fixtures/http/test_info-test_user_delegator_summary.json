@@ -1,0 +1,20 @@
+{
+  "fixture_name": "test_info-test_user_delegator_summary",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "delegatorSummary",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "delegated": "0.0",
+          "undelegated": "0.0",
+          "totalPendingWithdrawal": "0.0",
+          "nPendingWithdrawals": 0
+        }
+      }
+    }
+  ]
+}

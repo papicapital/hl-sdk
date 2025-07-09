@@ -1,0 +1,47 @@
+{
+  "test_context": "test_exchange-test_place_order",
+  "interactions": [
+    {
+      "transport_url": "https://api.hyperliquid-testnet.xyz/exchange",
+      "normalized_payload": {
+        "action": {
+          "type": "order",
+          "orders": [
+            {
+              "a": 3,
+              "b": true,
+              "p": "105000",
+              "s": "0.01",
+              "r": false,
+              "t": {
+                "limit": {
+                  "tif": "Gtc"
+                }
+              }
+            }
+          ],
+          "grouping": "na"
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "order",
+            "data": {
+              "statuses": [
+                {
+                  "resting": {
+                    "oid": 33753639142
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

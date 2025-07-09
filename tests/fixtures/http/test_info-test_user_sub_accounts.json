@@ -1,0 +1,42 @@
+{
+  "fixture_name": "test_info-test_user_sub_accounts",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "subAccounts",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": [
+          {
+            "name": "testplsignore",
+            "subAccountUser": "0x0000000000000000000000000000000000000001",
+            "master": "0x0000000000000000000000000000000000000000",
+            "clearinghouseState": {
+              "marginSummary": {
+                "accountValue": "0.0",
+                "totalNtlPos": "0.0",
+                "totalRawUsd": "0.0",
+                "totalMarginUsed": "0.0"
+              },
+              "crossMarginSummary": {
+                "accountValue": "0.0",
+                "totalNtlPos": "0.0",
+                "totalRawUsd": "0.0",
+                "totalMarginUsed": "0.0"
+              },
+              "crossMaintenanceMarginUsed": "0.0",
+              "withdrawable": "0.0",
+              "assetPositions": [],
+              "time": 1750020027842
+            },
+            "spotState": {
+              "balances": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

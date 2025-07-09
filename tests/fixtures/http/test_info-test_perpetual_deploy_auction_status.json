@@ -1,0 +1,20 @@
+{
+  "fixture_name": "test_info-test_perp_deploy_auction_status",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "perpDeployAuctionStatus"
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "startTimeSeconds": 1750111200,
+          "durationSeconds": 111600,
+          "startGas": "500.0",
+          "currentGas": null,
+          "endGas": "500.0"
+        }
+      }
+    }
+  ]
+}

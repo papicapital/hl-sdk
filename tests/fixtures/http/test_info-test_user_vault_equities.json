@@ -1,0 +1,26 @@
+{
+  "fixture_name": "test_info-test_user_vault_equities",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "userVaultEquities",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": [
+          {
+            "vaultAddress": "0x0000000000000000000000000000000000000002",
+            "equity": "20000.0",
+            "lockedUntilTimestamp": 1750022046528
+          },
+          {
+            "vaultAddress": "0xa71e834d4e7bbbb5c896047d150834c3ab86c06a",
+            "equity": "200.0",
+            "lockedUntilTimestamp": 1750021412879
+          }
+        ]
+      }
+    }
+  ]
+}

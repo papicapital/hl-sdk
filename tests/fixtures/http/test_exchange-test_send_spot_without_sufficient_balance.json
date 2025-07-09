@@ -1,0 +1,34 @@
+{
+  "fixture_name": "test_exchange-test_send_spot_without_sufficient_balance",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "spotSend",
+          "hyperliquidChain": "Testnet",
+          "signatureChainId": "0x66eee",
+          "destination": "0x0000000000000000000000000000000000000004",
+          "token": "PURR",
+          "amount": "100000",
+          "time": 1750181062363
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "err",
+        "error": {
+          "import_path": "hl.errors.StatusError",
+          "kwargs": {
+            "message": "status=err body={'status': 'err', 'response': 'Insufficient balance for token transfer'}",
+            "expected": "ok",
+            "actual": "err",
+            "body": {
+              "status": "err",
+              "response": "Insufficient balance for token transfer"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

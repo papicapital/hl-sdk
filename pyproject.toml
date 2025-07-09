@@ -1,0 +1,90 @@
+[project]
+name = "hl-sdk"
+version = "0.1.0"
+description = "An unofficial client SDK for Hyperliquid"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+requires-python = ">=3.13"
+authors = [
+    {name = "papicap", email = "212585295+papicap@users.noreply.github.com"}
+]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "eth-account>=0.13.7",
+    "eth-utils>=5.2.0",
+    "hexbytes>=1.3.0",
+    "httpx[http2]>=0.28.1",
+    "msgpack>=1.1.1",
+    "websockets>=15.0.1",
+]
+
+[project.urls]
+Homepage = "https://papicapital.github.com/hl-sdk"
+Documentation = "https://papicapital.github.com/hl-sdk"
+Repository = "https://github.com/papicapital/hl-sdk/"
+
+[dependency-groups]
+dev = [
+    "eth-typing>=5.1.0",
+    "mypy>=1.16.1",
+    "pre-commit>=4.2.0",
+    "pytest>=8.4.1",
+    "pytest-asyncio>=1.0.0",
+    "ruff>=0.12.2",
+]
+docs = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.6.14",
+    "mkdocstrings[python]>=0.29.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.7.6,<0.8.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = ""
+module-name = "hl"
+
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+
+[tool.ruff.lint]
+# Enable all `pydocstyle` rules, limiting to those that adhere to the
+# Google convention via `convention = "google"`, below.
+select = ["D"]
+# Don't enforce docstring for every public module (D100) or function (D103)
+ignore = ["D100", "D103"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.isort]
+known-first-party = ["hl"]
+section-order = ["future", "standard-library", "third-party", "first-party", "local-folder"]
+no-lines-before = ["local-folder"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+disallow_subclassing_any = false
+disallow_any_generics = false
+exclude = []  # Remove the exclusion for tests directory
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"

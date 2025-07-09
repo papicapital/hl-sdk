@@ -1,0 +1,32 @@
+{
+  "fixture_name": "test_info-test_user_state",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "clearinghouseState",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "marginSummary": {
+            "accountValue": "65574.652887",
+            "totalNtlPos": "0.0",
+            "totalRawUsd": "65574.652887",
+            "totalMarginUsed": "0.0"
+          },
+          "crossMarginSummary": {
+            "accountValue": "65574.652887",
+            "totalNtlPos": "0.0",
+            "totalRawUsd": "65574.652887",
+            "totalMarginUsed": "0.0"
+          },
+          "crossMaintenanceMarginUsed": "0.0",
+          "withdrawable": "65574.652887",
+          "assetPositions": [],
+          "time": 1750149826498
+        }
+      }
+    }
+  ]
+}

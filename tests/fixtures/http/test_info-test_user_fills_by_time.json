@@ -1,0 +1,35 @@
+{
+  "test_context": "test_info-test_user_fills_by_time",
+  "interactions": [
+    {
+      "transport_url": "https://api.hyperliquid-testnet.xyz/info",
+      "normalized_payload": {
+        "type": "userFillsByTime",
+        "user": "0x0000000000000000000000000000000000000000",
+        "startTime": 1750005000000,
+        "endTime": 1750006080000
+      },
+      "result": {
+        "type": "ok",
+        "value": [
+          {
+            "coin": "BTC",
+            "px": "105392.0",
+            "sz": "0.0002",
+            "side": "B",
+            "time": 1750005225049,
+            "startPosition": "0.0",
+            "dir": "Open Long",
+            "closedPnl": "0.0",
+            "hash": "0x93a6084afbc00e651cab04170ac306010c0025314af2bd756fe5528d81a42f65",
+            "oid": 33845539264,
+            "crossed": false,
+            "fee": "0.003161",
+            "tid": 599534812993935,
+            "feeToken": "USDC"
+          }
+        ]
+      }
+    }
+  ]
+}

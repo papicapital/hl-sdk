@@ -1,0 +1,17 @@
+{
+  "fixture_name": "test_info-test_user_role_with_address",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "userRole",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "role": "user"
+        }
+      }
+    }
+  ]
+}

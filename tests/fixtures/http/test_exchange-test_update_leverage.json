@@ -1,0 +1,25 @@
+{
+  "fixture_name": "test_exchange-test_update_leverage",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "updateLeverage",
+          "asset": 3,
+          "isCross": false,
+          "leverage": 14
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

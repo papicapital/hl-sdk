@@ -1,0 +1,35 @@
+{
+  "fixture_name": "test_exchange-test_modify_order",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "modify",
+          "oid": 33961768362,
+          "order": {
+            "a": 3,
+            "b": true,
+            "p": "105000",
+            "s": "0.01",
+            "r": false,
+            "t": {
+              "limit": {
+                "tif": "Gtc"
+              }
+            }
+          }
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

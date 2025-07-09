@@ -1,0 +1,25 @@
+{
+  "fixture_name": "test_info-test_spot_user_state",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "spotClearinghouseState",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "balances": [
+            {
+              "coin": "USDC",
+              "token": 0,
+              "total": "13488.416604",
+              "hold": "0.0",
+              "entryNtl": "0.0"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "test_context": "test_info-test_user_rate_limit",
+  "interactions": [
+    {
+      "transport_url": "https://api.hyperliquid-testnet.xyz/info",
+      "normalized_payload": {
+        "type": "userRateLimit",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "cumVlm": "21.0784",
+          "nRequestsUsed": 37,
+          "nRequestsCap": 10021
+        }
+      }
+    }
+  ]
+}

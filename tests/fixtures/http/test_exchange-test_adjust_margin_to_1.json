@@ -1,0 +1,24 @@
+{
+  "fixture_name": "test_exchange-test_adjust_margin_to_1",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "topUpIsolatedOnlyMargin",
+          "asset": 78,
+          "leverage": "1.0"
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "test_context": "test_exchange-test_cancel_order",
+  "interactions": [
+    {
+      "transport_url": "https://api.hyperliquid-testnet.xyz/exchange",
+      "normalized_payload": {
+        "action": {
+          "type": "cancel",
+          "cancels": [
+            {
+              "a": 3,
+              "o": 33753639142
+            }
+          ]
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "cancel",
+            "data": {
+              "statuses": [
+                "success"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

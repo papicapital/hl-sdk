@@ -1,0 +1,29 @@
+{
+  "fixture_name": "test_ws-test_ws_exchange_transfer_usd",
+  "interactions": [
+    {
+      "type": "invoke",
+      "normalized_payload": {
+        "action": {
+          "type": "usdClassTransfer",
+          "hyperliquidChain": "Testnet",
+          "signatureChainId": "0x66eee",
+          "amount": "100.0",
+          "toPerp": true,
+          "nonce": 1751506435976
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      },
+      "timestamp": 1751506437.2400985
+    }
+  ]
+}

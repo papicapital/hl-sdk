@@ -1,0 +1,17 @@
+{
+  "fixture_name": "test_info-test_all_mids_with_dex",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "allMids",
+        "dex": "pluto"
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "pluto:ABC": "10.0"
+        }
+      }
+    }
+  ]
+}

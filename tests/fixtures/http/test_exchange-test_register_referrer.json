@@ -1,0 +1,23 @@
+{
+  "fixture_name": "test_exchange-test_register_referrer",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "registerReferrer",
+          "code": "TESTCODEPLSIGNORE"
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

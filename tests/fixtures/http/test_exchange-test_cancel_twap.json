@@ -1,0 +1,27 @@
+{
+  "fixture_name": "test_exchange-test_cancel_twap",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "twapCancel",
+          "a": 3,
+          "t": 6552
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "twapCancel",
+            "data": {
+              "status": "success"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

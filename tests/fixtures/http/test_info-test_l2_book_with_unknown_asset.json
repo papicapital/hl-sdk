@@ -1,0 +1,22 @@
+{
+  "fixture_name": "test_info-test_l2_book_with_unknown_asset",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "l2Book",
+        "coin": "NOT_A_COIN",
+        "nSigFigs": null,
+        "mantissa": null
+      },
+      "result": {
+        "type": "err",
+        "error": {
+          "import_path": "hl.errors.NotFoundError",
+          "kwargs": {
+            "message": "Empty info response"
+          }
+        }
+      }
+    }
+  ]
+}

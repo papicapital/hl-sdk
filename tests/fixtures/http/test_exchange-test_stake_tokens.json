@@ -1,0 +1,26 @@
+{
+  "fixture_name": "test_exchange-test_stake_tokens",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "cDeposit",
+          "hyperliquidChain": "Testnet",
+          "signatureChainId": "0x66eee",
+          "wei": 600000000,
+          "nonce": 1750357771819
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

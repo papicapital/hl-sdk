@@ -1,0 +1,72 @@
+{
+  "fixture_name": "test_subscription-test_candle_subscription",
+  "interactions": [
+    {
+      "type": "subscribe",
+      "subscription": {
+        "type": "candle",
+        "coin": "BTC",
+        "interval": "1m"
+      },
+      "subscription_id": 0,
+      "messages": [
+        {
+          "message": {
+            "channel": "candle",
+            "data": {
+              "t": 1751493540000,
+              "T": 1751493599999,
+              "s": "BTC",
+              "i": "1m",
+              "o": "109579.0",
+              "c": "109588.0",
+              "h": "109588.0",
+              "l": "109579.0",
+              "v": "0.0045",
+              "n": 3
+            }
+          },
+          "timestamp": 3.183483839035034
+        },
+        {
+          "message": {
+            "channel": "candle",
+            "data": {
+              "t": 1751493540000,
+              "T": 1751493599999,
+              "s": "BTC",
+              "i": "1m",
+              "o": "109579.0",
+              "c": "109612.0",
+              "h": "109612.0",
+              "l": "109579.0",
+              "v": "0.0055",
+              "n": 4
+            }
+          },
+          "timestamp": 47.60605311393738
+        },
+        {
+          "message": {
+            "channel": "candle",
+            "data": {
+              "t": 1751493600000,
+              "T": 1751493659999,
+              "s": "BTC",
+              "i": "1m",
+              "o": "109604.0",
+              "c": "109604.0",
+              "h": "109604.0",
+              "l": "109604.0",
+              "v": "0.01",
+              "n": 1
+            }
+          },
+          "timestamp": 71.74402928352356
+        }
+      ],
+      "capture_duration": 105.0,
+      "timestamp": 1751493547.66175
+    }
+  ]
+}

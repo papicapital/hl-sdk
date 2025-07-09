@@ -1,0 +1,23 @@
+{
+  "fixture_name": "test_exchange-test_reserve_weight",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "reserveRequestWeight",
+          "weight": 100
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

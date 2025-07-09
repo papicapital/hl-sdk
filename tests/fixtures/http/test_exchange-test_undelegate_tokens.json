@@ -1,0 +1,28 @@
+{
+  "fixture_name": "test_exchange-test_undelegate_tokens",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "tokenDelegate",
+          "hyperliquidChain": "Testnet",
+          "signatureChainId": "0x66eee",
+          "validator": "0x0000000000000000000000000000000000000005",
+          "wei": 50000000,
+          "isUndelegate": true,
+          "nonce": 1751094082904
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

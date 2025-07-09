@@ -1,0 +1,35 @@
+{
+  "fixture_name": "test_exchange-test_modify_order_with_cloid",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "modify",
+          "oid": "0x0000000000000000000000000000053a",
+          "order": {
+            "a": 3,
+            "b": true,
+            "p": "103000",
+            "s": "0.004",
+            "r": false,
+            "t": {
+              "limit": {
+                "tif": "Gtc"
+              }
+            }
+          }
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

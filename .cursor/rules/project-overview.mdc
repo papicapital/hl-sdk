@@ -1,0 +1,39 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: Core project overview & dev workflow
+globs:
+alwaysApply: true
+---
+
+# Project Overview
+
+• **hl-sdk** - An unofficial Python client SDK for Hyperliquid, a cryptocurrency trading platform
+• **Tech Stack** - Python 3.13, uv for dependency management, pytest for testing, ruff for linting/formatting, mypy for static type checking
+• **Key Directories** - `hl/` (main source code), `examples/` (usage examples), `tests/` (test suite with fixtures), `docs/` (mkdocs documentation)
+• **Architecture** - Modular design with separate info, exchange, and WebSocket client modules, comprehensive type definitions in [types.py](mdc:hl/types.py)
+• **Testing Strategy** - Fixture-based testing with live API capture/replay functionality for reproducible tests against Hyperliquid's test network
+
+# Management Commands
+
+| Command | Purpose | Typical Usage |
+|---------|---------|---------------|
+| `uv run pytest` | Run unit + integration tests | `uv run pytest tests/` |
+| `uv run pytest -q` | Run tests quietly | `uv run pytest -q` |
+| `uv run pytest --cache-clear` | Clear test cache and run | `uv run pytest --cache-clear` |
+| `uv run ruff check` | Lint code for style issues | `uv run ruff check .` |
+| `uv run ruff format` | Auto-format code | `uv run ruff format .` |
+| `uv run mypy` | Static type checking | `uv run mypy hl tests` |
+| `uv sync` | Install/sync dependencies | `uv sync` |
+| `uv run examples/something.py` | Run example scripts | `uv run examples/authentication.py` |
+| `uv run mkdocs serve` | Serve documentation locally | `uv run mkdocs serve` |
+| `uv run pre-commit run --all-files` | Run pre-commit hooks | `uv run pre-commit run --all-files` |
+
+# Further Reading
+
+• [CONTRIBUTING.md](mdc:CONTRIBUTING.md) - Development workflow, testing strategy, and naming conventions
+• [pyproject.toml](mdc:pyproject.toml) - Project configuration, dependencies, and tool settings
+• [examples/](mdc:examples) - Usage examples for authentication, data retrieval, and WebSocket subscriptions - TODO: Examples need to be updated

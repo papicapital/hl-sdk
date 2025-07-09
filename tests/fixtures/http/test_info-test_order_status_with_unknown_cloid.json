@@ -1,0 +1,26 @@
+{
+  "fixture_name": "test_info-test_order_status_with_unknown_cloid",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "orderStatus",
+        "user": "0x0000000000000000000000000000000000000000",
+        "oid": "0x000000000000000000000000000001f5"
+      },
+      "result": {
+        "type": "err",
+        "error": {
+          "import_path": "hl.errors.StatusError",
+          "kwargs": {
+            "message": "Expected status 'order' but got 'unknownOid'",
+            "expected": "order",
+            "actual": "unknownOid",
+            "body": {
+              "status": "unknownOid"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

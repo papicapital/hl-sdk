@@ -1,0 +1,16 @@
+{
+  "fixture_name": "test_info-test_perpetuals_at_open_interest_cap",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "perpsAtOpenInterestCap"
+      },
+      "result": {
+        "type": "ok",
+        "value": [
+          "HYPE"
+        ]
+      }
+    }
+  ]
+}

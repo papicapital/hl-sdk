@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="120" viewBox="0 0 300 120" role="img" aria-label="hl-sdk wordmark">
+  <defs>
+    <!-- Aqua gradient echoing Hyperliquid palette -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7fffe1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4afad1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Centered wordmark -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="url(#textGrad)">
+    hl-sdk
+  </text>
+</svg>

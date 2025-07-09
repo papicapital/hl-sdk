@@ -1,0 +1,25 @@
+{
+  "fixture_name": "test_exchange-test_transfer_vault_funds",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "vaultTransfer",
+          "vaultAddress": "0x0000000000000000000000000000000000000002",
+          "isDeposit": true,
+          "usd": 62000000
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

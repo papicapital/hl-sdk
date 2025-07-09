@@ -1,0 +1,25 @@
+# Constants
+
+::: hl.TESTNET
+
+::: hl.MAINNET
+
+::: hl.LIMIT_GTC
+
+::: hl.LIMIT_IOC
+
+::: hl.LIMIT_ALO
+
+::: hl.TRIGGER_TAKE_PROFIT
+
+::: hl.TRIGGER_STOP_LOSS
+
+::: hl.SIDE_ASK
+
+::: hl.SIDE_BID
+
+::: hl.GROUPING_NA
+
+::: hl.GROUPING_TRIGGER_NORMAL
+
+::: hl.GROUPING_TRIGGER_POSITION

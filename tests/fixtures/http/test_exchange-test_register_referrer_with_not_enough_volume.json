@@ -1,0 +1,29 @@
+{
+  "fixture_name": "test_exchange-test_register_referrer_with_not_enough_volume",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "registerReferrer",
+          "code": "TESTCODEPLSIGNORE"
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "err",
+        "error": {
+          "import_path": "hl.errors.StatusError",
+          "kwargs": {
+            "message": "status=err body={'status': 'err', 'response': 'Cannot generate referral code until enough volume traded'}",
+            "expected": "ok",
+            "actual": "err",
+            "body": {
+              "status": "err",
+              "response": "Cannot generate referral code until enough volume traded"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "fixture_name": "test_info-test_user_open_orders_with_malformed_address",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "openOrders",
+        "user": "0x00000000000000"
+      },
+      "result": {
+        "type": "err",
+        "error": {
+          "import_path": "hl.errors.HttpError",
+          "kwargs": {
+            "message": "Unable to parse error response: Failed to deserialize the JSON body into the target type",
+            "status_code": 422,
+            "headers": {
+              "content-type": "text/plain; charset=utf-8",
+              "content-length": "56",
+              "connection": "keep-alive",
+              "server": "nginx/1.26.2",
+              "date": "Wed, 02 Jul 2025 16:09:23 GMT",
+              "access-control-expose-headers": "*",
+              "access-control-allow-origin": "*",
+              "vary": "origin, access-control-request-method, access-control-request-headers",
+              "x-cache": "Error from cloudfront",
+              "via": "1.1 1c1da110e73f69e5d3de5209268db5b6.cloudfront.net (CloudFront)",
+              "x-amz-cf-pop": "DUS51-P4",
+              "x-amz-cf-id": "vsNmA-0wOLNoXN3dRc8GOFFySwcKlU_gMj2odUOUpK-Tw2hoGABeUA=="
+            },
+            "body": "Failed to deserialize the JSON body into the target type",
+            "error_code": null,
+            "error_message": null,
+            "error_data": null
+          }
+        }
+      }
+    }
+  ]
+}

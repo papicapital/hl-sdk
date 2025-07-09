@@ -1,0 +1,86 @@
+{
+  "fixture_name": "test_subscription-test_user_twap_slice_fills_subscription",
+  "interactions": [
+    {
+      "type": "subscribe",
+      "subscription": {
+        "type": "userTwapSliceFills",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "subscription_id": 0,
+      "messages": [
+        {
+          "message": {
+            "channel": "userTwapSliceFills",
+            "data": {
+              "isSnapshot": true,
+              "user": "0x0000000000000000000000000000000000000000",
+              "twapSliceFills": [
+                {
+                  "fill": {
+                    "coin": "BTC",
+                    "px": "105076.0",
+                    "sz": "0.00212",
+                    "side": "B",
+                    "time": 1750330467117,
+                    "startPosition": "0.0017",
+                    "dir": "Open Long",
+                    "closedPnl": "0.0",
+                    "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "oid": 34075540961,
+                    "crossed": true,
+                    "fee": "0.100242",
+                    "tid": 36638712655580,
+                    "feeToken": "USDC"
+                  },
+                  "twapId": 6552
+                },
+                {
+                  "fill": {
+                    "coin": "BTC",
+                    "px": "105076.0",
+                    "sz": "0.00184",
+                    "side": "B",
+                    "time": 1750330497158,
+                    "startPosition": "0.00382",
+                    "dir": "Open Long",
+                    "closedPnl": "0.0",
+                    "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "oid": 34075549478,
+                    "crossed": true,
+                    "fee": "0.087002",
+                    "tid": 934616316595934,
+                    "feeToken": "USDC"
+                  },
+                  "twapId": 6552
+                },
+                {
+                  "fill": {
+                    "coin": "BTC",
+                    "px": "105076.0",
+                    "sz": "0.00129",
+                    "side": "B",
+                    "time": 1750330527169,
+                    "startPosition": "0.00566",
+                    "dir": "Open Long",
+                    "closedPnl": "0.0",
+                    "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "oid": 34075558611,
+                    "crossed": true,
+                    "fee": "0.060996",
+                    "tid": 405027287146300,
+                    "feeToken": "USDC"
+                  },
+                  "twapId": 6552
+                }
+              ]
+            }
+          },
+          "timestamp": 1.0454299449920654
+        }
+      ],
+      "capture_duration": 5.0,
+      "timestamp": 1751501960.6383538
+    }
+  ]
+}

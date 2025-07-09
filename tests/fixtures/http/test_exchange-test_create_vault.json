@@ -1,0 +1,27 @@
+{
+  "fixture_name": "test_exchange-test_create_vault",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "description": "This is a test vault please ignore",
+          "initialUsd": 200000000,
+          "name": "TestVault1",
+          "nonce": 1750021391791,
+          "type": "createVault"
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "createVault",
+            "data": "0x0000000000000000000000000000000000000002"
+          }
+        }
+      }
+    }
+  ]
+}

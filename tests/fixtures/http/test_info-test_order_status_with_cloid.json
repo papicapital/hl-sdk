@@ -1,0 +1,40 @@
+{
+  "fixture_name": "test_info-test_order_status_with_cloid",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "orderStatus",
+        "user": "0x0000000000000000000000000000000000000000",
+        "oid": "0x00000000000000000000000000000539"
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "order",
+          "order": {
+            "order": {
+              "coin": "BTC",
+              "side": "B",
+              "limitPx": "105000.0",
+              "sz": "0.01",
+              "oid": 33849489931,
+              "timestamp": 1750011797202,
+              "triggerCondition": "N/A",
+              "isTrigger": false,
+              "triggerPx": "0.0",
+              "children": [],
+              "isPositionTpsl": false,
+              "reduceOnly": false,
+              "orderType": "Limit",
+              "origSz": "0.01",
+              "tif": "Gtc",
+              "cloid": "0x00000000000000000000000000000539"
+            },
+            "status": "open",
+            "statusTimestamp": 1750011797202
+          }
+        }
+      }
+    }
+  ]
+}

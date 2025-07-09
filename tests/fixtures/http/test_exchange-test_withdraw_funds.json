@@ -1,0 +1,27 @@
+{
+  "fixture_name": "test_exchange-test_withdraw_funds",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "withdraw3",
+          "hyperliquidChain": "Testnet",
+          "signatureChainId": "0x66eee",
+          "amount": "100",
+          "destination": "0x0000000000000000000000000000000000000000",
+          "time": 1750181714145
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

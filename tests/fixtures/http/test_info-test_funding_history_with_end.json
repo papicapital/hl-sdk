@@ -1,0 +1,60 @@
+{
+  "fixture_name": "test_info-test_funding_history_with_end",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "fundingHistory",
+        "coin": "BTC",
+        "startTime": 1749790800000,
+        "endTime": 1749816000000
+      },
+      "result": {
+        "type": "ok",
+        "value": [
+          {
+            "coin": "BTC",
+            "fundingRate": "0.0000125",
+            "premium": "0.000149889",
+            "time": 1749790800125
+          },
+          {
+            "coin": "BTC",
+            "fundingRate": "0.0000125",
+            "premium": "0.0002831942",
+            "time": 1749794400185
+          },
+          {
+            "coin": "BTC",
+            "fundingRate": "0.0000125",
+            "premium": "0.0002426496",
+            "time": 1749798000133
+          },
+          {
+            "coin": "BTC",
+            "fundingRate": "0.0000125",
+            "premium": "0.000168751",
+            "time": 1749801600117
+          },
+          {
+            "coin": "BTC",
+            "fundingRate": "0.0000125",
+            "premium": "-0.0000364483",
+            "time": 1749805200150
+          },
+          {
+            "coin": "BTC",
+            "fundingRate": "0.0000125",
+            "premium": "0.0001631653",
+            "time": 1749808800196
+          },
+          {
+            "coin": "BTC",
+            "fundingRate": "0.0000125",
+            "premium": "0.0001600215",
+            "time": 1749812400020
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "fixture_name": "test_exchange-test_approve_builder",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "approveBuilderFee",
+          "hyperliquidChain": "Testnet",
+          "signatureChainId": "0x66eee",
+          "maxFeeRate": "0.0100%",
+          "builder": "0x0000000000000000000000000000000000000004",
+          "nonce": 1751093867901
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "default"
+          }
+        }
+      }
+    }
+  ]
+}

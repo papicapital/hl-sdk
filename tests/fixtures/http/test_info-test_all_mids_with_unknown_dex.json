@@ -1,0 +1,20 @@
+{
+  "fixture_name": "test_info-test_all_mids_with_unknown_dex",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "allMids",
+        "dex": "NOT_A_DEX"
+      },
+      "result": {
+        "type": "err",
+        "error": {
+          "import_path": "hl.errors.NotFoundError",
+          "kwargs": {
+            "message": "Empty info response"
+          }
+        }
+      }
+    }
+  ]
+}

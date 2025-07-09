@@ -1,0 +1,65 @@
+{
+  "fixture_name": "test_subscription-test_user_twap_history_subscription",
+  "interactions": [
+    {
+      "type": "subscribe",
+      "subscription": {
+        "type": "userTwapHistory",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "subscription_id": 0,
+      "messages": [
+        {
+          "message": {
+            "channel": "userTwapHistory",
+            "data": {
+              "isSnapshot": true,
+              "user": "0x0000000000000000000000000000000000000000",
+              "history": [
+                {
+                  "time": 1750330465,
+                  "state": {
+                    "coin": "BTC",
+                    "user": "0x0000000000000000000000000000000000000000",
+                    "side": "B",
+                    "sz": "0.02",
+                    "executedSz": "0.0",
+                    "executedNtl": "0.0",
+                    "minutes": 5,
+                    "reduceOnly": false,
+                    "randomize": true,
+                    "timestamp": 1750330465288
+                  },
+                  "status": {
+                    "status": "activated"
+                  }
+                },
+                {
+                  "time": 1750330550,
+                  "state": {
+                    "coin": "BTC",
+                    "user": "0x0000000000000000000000000000000000000000",
+                    "side": "B",
+                    "sz": "0.02",
+                    "executedSz": "0.00525",
+                    "executedNtl": "551.649",
+                    "minutes": 5,
+                    "reduceOnly": false,
+                    "randomize": true,
+                    "timestamp": 1750330465288
+                  },
+                  "status": {
+                    "status": "terminated"
+                  }
+                }
+              ]
+            }
+          },
+          "timestamp": 1.0323429107666016
+        }
+      ],
+      "capture_duration": 5.0,
+      "timestamp": 1751502043.1470377
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+site_name: hl Docs
+site_url: https://papicapital.github.com/hl-sdk
+site_description: A modern text extraction library supporting PDFs, images, office documents and more
+site_author: Papicapital
+repo_name: papicapital/hl-sdk
+repo_url: https://github.com/papicapital/hl-sdk/
+copyright: Copyright &copy; 2025 Papicapital
+
+nav:
+- Overview: index.md
+- Guides:
+  - guides/index.md
+  - guides/universe.md
+  - guides/authentication.md
+  - guides/api.md
+  - guides/info.md
+  - guides/exchange.md
+  - Websocket:
+    - guides/ws/websocket-api.md
+    - guides/ws/subscriptions.md
+  - guides/advanced.md
+  - guides/examples.md
+- API Reference:
+  - reference/index.md
+  - reference/api.md
+  - Endpoints:
+    - reference/exchange.md
+    - reference/info.md
+    - reference/subscriptions.md
+    - reference/ws.md
+  - Types:
+    - reference/errors.md
+    - reference/types.md
+  - Misc:
+    - reference/account.md
+    - reference/cloid.md
+    - reference/constants.md
+    - reference/transport.md
+    - reference/universe.md
+- Contributing: contributing.md
+
+validation:
+  links:
+    anchors: warn
+
+markdown_extensions:
+- attr_list
+- admonition
+- footnotes
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- pymdownx.highlight:
+    pygments_lang_class: true
+- pymdownx.inlinehilite:
+    style_plain_text: python
+- pymdownx.magiclink
+- pymdownx.snippets:
+    base_path: [!relative $config_dir]
+    check_paths: true
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+    slugify: !!python/object/apply:pymdownx.slugs.slugify
+      kwds:
+        case: lower
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tilde
+- toc:
+    permalink: "¤"
+
+theme:
+  name: material
+  logo: logo.svg
+  favicon: logo.svg
+  features:
+  - announce.dismiss
+  - content.action.edit
+  - content.action.view
+  - content.code.annotate
+  - content.code.copy
+  - content.tooltips
+  - navigation.footer
+  - navigation.indexes
+  - navigation.sections
+  - navigation.expand
+  - navigation.top
+  - navigation.path
+  - navigation.tabs
+  - search.highlight
+  - search.suggest
+  - toc.follow
+  - toc.integrate
+  palette:
+    scheme: slate
+    primary: black
+    accent: lime
+  palette:
+    - media: "(prefers-color-scheme)"
+      accent: lime
+      primary: black
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: lime
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: lime
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+plugins:
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        inventories:
+        - https://docs.python.org/3/objects.inv
+        paths: [hl]
+        options:
+          docstring_options:
+            ignore_init_summary: true
+          filters: ["!^_"]
+          inherited_members: true
+          merge_init_into_class: true
+          separate_signature: true
+          show_root_heading: true
+          show_root_full_path: true
+          show_signature_annotations: true
+          show_symbol_type_heading: true
+          show_symbol_type_toc: true
+          show_source: false
+          signature_crossrefs: true
+          summary: true

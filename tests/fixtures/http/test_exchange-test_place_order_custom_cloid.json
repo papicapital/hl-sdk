@@ -1,0 +1,48 @@
+{
+  "fixture_name": "test_exchange-test_place_order_custom_cloid",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "order",
+          "orders": [
+            {
+              "a": 3,
+              "b": true,
+              "p": "105000",
+              "s": "0.01",
+              "r": false,
+              "t": {
+                "limit": {
+                  "tif": "Gtc"
+                }
+              },
+              "c": "0x00000000000000000000000000000539"
+            }
+          ],
+          "grouping": "na"
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "order",
+            "data": {
+              "statuses": [
+                {
+                  "resting": {
+                    "oid": 33849489931,
+                    "cloid": "0x00000000000000000000000000000539"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "fixture_name": "test_exchange-test_place_twap",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "action": {
+          "type": "twapOrder",
+          "twap": {
+            "a": 3,
+            "b": true,
+            "s": "0.02",
+            "r": false,
+            "m": 5,
+            "t": true
+          }
+        },
+        "vaultAddress": null
+      },
+      "result": {
+        "type": "ok",
+        "value": {
+          "status": "ok",
+          "response": {
+            "type": "twapOrder",
+            "data": {
+              "status": {
+                "running": {
+                  "twapId": 6552
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "fixture_name": "test_info-test_user_fills_by_time_aggregate_by_time",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "userFillsByTime",
+        "user": "0x0000000000000000000000000000000000000000",
+        "startTime": 1750010700000,
+        "endTime": 1750012200000,
+        "aggregateByTime": true
+      },
+      "result": {
+        "type": "ok",
+        "value": [
+          {
+            "coin": "DOGE",
+            "px": "0.1763",
+            "sz": "100.0",
+            "side": "A",
+            "time": 1750011332293,
+            "startPosition": "100.0",
+            "dir": "Close Long",
+            "closedPnl": "-0.04",
+            "hash": "0x46f782938a90c7d8090504170b4609010a008a5aeae73af6c6f1045f40424ea2",
+            "oid": 33849274706,
+            "crossed": true,
+            "fee": "0.007933",
+            "tid": 461412200618113,
+            "feeToken": "USDC"
+          }
+        ]
+      }
+    }
+  ]
+}

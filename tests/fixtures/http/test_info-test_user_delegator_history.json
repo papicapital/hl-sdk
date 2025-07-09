@@ -1,0 +1,76 @@
+{
+  "fixture_name": "test_info-test_user_delegator_history",
+  "interactions": [
+    {
+      "normalized_payload": {
+        "type": "delegatorHistory",
+        "user": "0x0000000000000000000000000000000000000000"
+      },
+      "result": {
+        "type": "ok",
+        "value": [
+          {
+            "time": 1750358190761,
+            "hash": "0x88b1bd22d03a35b36dce041728a4de010c00da04f60232ed1a14bd29d7405b58",
+            "delta": {
+              "delegate": {
+                "validator": "0x8888c8c2c539d56919d20ac58305a5000b26fb67",
+                "amount": "3.0",
+                "isUndelegate": false
+              }
+            }
+          },
+          {
+            "time": 1750358118172,
+            "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "delta": {
+              "withdrawal": {
+                "amount": "2.1",
+                "phase": "finalized"
+              }
+            }
+          },
+          {
+            "time": 1750358095694,
+            "hash": "0xac29ccc2a5d12c0c6244041728a2cb0108002e41f5d44c0ad43e0e20b473d855",
+            "delta": {
+              "delegate": {
+                "validator": "0x8888c8c2c539d56919d20ac58305a5000b26fb67",
+                "amount": "0.5",
+                "isUndelegate": false
+              }
+            }
+          },
+          {
+            "time": 1750357818028,
+            "hash": "0xe8e03969c7988bf11d680417289cb8010800c897d853f677933b9087f6aba013",
+            "delta": {
+              "withdrawal": {
+                "amount": "2.1",
+                "phase": "initiated"
+              }
+            }
+          },
+          {
+            "time": 1750357775521,
+            "hash": "0x06fb4ff3fb94865afe4c0417289bd1010900c0dc0d6dd2da6e21f6c655c6dc56",
+            "delta": {
+              "cDeposit": {
+                "amount": "6.0"
+              }
+            }
+          },
+          {
+            "time": 1750356732770,
+            "hash": "0x6422097b621951f7afd2041728852e010e00daa91402e318b25215ccd731e657",
+            "delta": {
+              "cDeposit": {
+                "amount": "0.06"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
