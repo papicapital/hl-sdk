@@ -10,7 +10,7 @@ While Hyperliquid provides an official Python SDK, we developed `hl-sdk` to addr
 - **Complete Type Safety**: Full type annotations for all methods, requests, and responses with zero `Any` types
 - **100% API Coverage**: Every documented Hyperliquid API endpoint is implemented
 - **Intuitive Interface**: Consistent method naming and clear separation between info, exchange, and WebSocket operations
-- **Modern Python**: Leverages Python 3.13+ features for cleaner, more maintainable code
+- **Modern Python**: Leverages Python 3.11+ features for cleaner, more maintainable code
 
 ## Installation
 
