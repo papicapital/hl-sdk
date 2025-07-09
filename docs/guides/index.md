@@ -184,7 +184,7 @@ Execute trades and manage your account:
 import asyncio
 import os
 from decimal import Decimal
-from hl import Api, Account
+from hl import Api, Account, LIMIT_GTC
 
 async def main():
     account = Account(
@@ -200,7 +200,7 @@ async def main():
         is_buy=True,
         size=Decimal("0.001"),
         limit_price=Decimal("65000"),
-        order_type="limit",
+        order_type=LIMIT_GTC,  # Good till canceled
         reduce_only=False
     )
 

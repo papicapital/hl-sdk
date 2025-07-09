@@ -41,7 +41,7 @@ pip install -e .
 
 ```python
 import asyncio
-from hl import Api
+from hl import Api, TESTNET
 from hl.account import Account
 
 async def main():
@@ -51,8 +51,8 @@ async def main():
         secret_key="0xYourSecretKey"
     )
 
-    # Create API client
-    api = await Api.create(account=account)
+    # Create API client, network defaults to MAINNET if not provided
+    api = await Api.create(account=account, network=TESTNET)
 
     # Get market data
     result = await api.info.perpetual_meta()
@@ -94,34 +94,54 @@ account = Account(
 ### Place an Order
 
 ```python
-from hl.types import OrderType, OrderRequest
+from hl import Api, Account, LIMIT_GTC, TESTNET
+from hl.types import is_resting_status, is_error_status, is_filled_status
 
 async def place_limit_order():
+    # Create API client
+    api = await Api.create(account=account, network=TESTNET)
+
     # Create a limit order
-    order = OrderRequest(
+    result = await api.exchange.place_order(
         asset="BTC",
         is_buy=True,
         size=Decimal("0.001"),  # Size in BTC
         limit_price=Decimal("50000.0"),  # Limit price
-        order_type={"limit": {"tif": "Gtc"}},
+        order_type=LIMIT_GTC,  # Good till canceled
         reduce_only=False
     )
 
-    # Place the order
-    result = await api.exchange.order(order)
-    print(f"Order placed: {result.unwrap()}")
+    # Handle the result
+    if result.is_ok():
+        response = result.unwrap()
+        print(f"Order request sent successfully!")
+
+        # Check individual order statuses
+        statuses = response["response"]["data"]["statuses"]
+        for status in statuses:
+            if is_resting_status(status):
+                print(f"Order resting with ID: {status['resting']['oid']}")
+            elif is_error_status(status):
+                print(f"Order failed: {status['error']}")
+            elif is_filled_status(status):
+                fill = status["filled"]
+                print(f"Order filled: {fill['totalSz']} at ${fill['avgPx']}")
+    else:
+        error = result.unwrap_err()
+        print(f"Error placing order: {error}")
 ```
 
 ### WebSocket Subscriptions
 
 ```python
-from hl.types import L2BookSubscription
-
 async def stream_orderbook():
+    # Create API client, by default on mainnet
+    api = await Api.create(account=account)
+    
     # Use WebSocket context manager
     async with api.ws.run():
         # Subscribe to the L2 book for BTC
-        sub_id, queue = await api.ws.subscribtions.l2_book(asset="BTC")
+        sub_id, queue = await api.ws.subscriptions.l2_book(asset="BTC")
 
         # Process incoming messages
         for _ in range(10):  # Process 10 messages
@@ -129,7 +149,7 @@ async def stream_orderbook():
             print(f"Orderbook update: {msg}")
 
         # Unsubscribe when done
-        await api.ws.unsubscribe(sub_id)
+        await api.ws.subscriptions.unsubscribe(sub_id)
 ```
 
 ## Examples

@@ -70,7 +70,7 @@ Place a limit order (requires authentication):
 import asyncio
 import os
 from decimal import Decimal
-from hl import Api, Account
+from hl import Api, Account, LIMIT_GTC
 
 async def place_order():
     # Create account from environment variables
@@ -88,7 +88,7 @@ async def place_order():
         is_buy=True,
         size=Decimal("0.001"),
         limit_price=Decimal("60000"),
-        order_type="limit",
+        order_type=LIMIT_GTC,  # Good till canceled
         reduce_only=False
     )
 
