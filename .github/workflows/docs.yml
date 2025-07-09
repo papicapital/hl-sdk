@@ -32,7 +32,7 @@ jobs:
         python-version-file: ".python-version"
     # 2. lock + install all extras (includes "docs")
     - name: Sync deps
-      run: uv sync --all-extras --dev --locked
+      run: uv sync --all-groups --all-extras --dev --locked
     # 3. build site into ./site
     - name: Build MkDocs site
       run: uv run mkdocs build --clean --strict --site-dir site
