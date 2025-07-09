@@ -201,3 +201,6 @@ asyncio.run(monitor_orders())
 
 For bugs, feature requests, or contributions, visit our [GitHub repository](https://github.com/papicapital/hl-sdk).
 
+Join our community:
+- [Discord Community - Papi's Pit](https://discord.gg/rDAG9RTsbj) for real-time chat and community support
+

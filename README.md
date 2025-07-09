@@ -180,6 +180,7 @@ We welcome contributions! Please see our [Contributing Guide](https://papicapita
 - 📚 [Documentation](https://papicapital.github.io/hl-sdk/)
 - 🐛 [Issue Tracker](https://github.com/papicapital/hl-sdk/issues)
 - 💬 [Discussions](https://github.com/papicapital/hl-sdk/discussions)
+- 🗣️ [Discord Community - Papi's Pit](https://discord.gg/rDAG9RTsbj)
 
 ## License
 

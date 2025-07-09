@@ -374,3 +374,4 @@ When implementing undocumented methods:
 
 - **API Documentation**: [Hyperliquid Docs](https://hyperliquid.gitbook.io/hyperliquid-docs/)
 - **GitHub Issues**: Report bugs or request features via GitHub issues
+- **Discord Community**: Join [Papi's Pit](https://discord.gg/rDAG9RTsbj) for real-time support and community discussions
