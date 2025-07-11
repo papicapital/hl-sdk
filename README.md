@@ -55,15 +55,15 @@ async def main():
     api = await Api.create(account=account, network=TESTNET)
 
     # Get market data
-    result = await api.info.perpetual_meta()
-    if result.is_ok():
-        meta = result.unwrap()
-        print(f"Connected to Hyperliquid: {len(meta.universe)} markets available")
+    meta_result = await api.info.perpetual_meta()
+    if meta_result.is_ok():
+        meta = meta_result.unwrap()
+        print(f"Connected to Hyperliquid: {len(meta['universe'])} markets available")
 
     # Get your open orders
-    result = await api.info.user_open_orders()
-    if result.is_ok():
-        orders = result.unwrap()
+    orders_result = await api.info.user_open_orders()
+    if orders_result.is_ok():
+        orders = orders_result.unwrap()
         print(f"You have {len(orders)} open orders")
 
 if __name__ == "__main__":
